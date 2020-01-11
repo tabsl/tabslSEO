@@ -1,0 +1,27 @@
+{
+	"name": "tabsl/tabslseo",
+	"version": "1.0.0",
+	"description": "Individuelle Titel-Tags für Artikel, Kategorie, CMS-Seiten und Marken.",
+	"type": "oxideshop-module",
+	"license": [
+		"proprietary"
+	],
+	"homepage": "https://oxid-module.eu",
+	"author": [{
+		"name": "Tobias Merkl",
+		"homepage": "https://oxid-module.eu"
+	}],
+	"support": {
+		"email": "support@oxid-module.eu"
+	},
+	"autoload": {
+		"psr-4": {
+			"Tabsl\\Seo\\": "../../../source/modules/tabsl/tabslSeo"
+		}
+	},
+	"extra": {
+		"oxideshop": {
+			"target-directory": "tabsl/tabslSeo"
+		}
+	}
+}
