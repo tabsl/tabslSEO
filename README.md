@@ -1,0 +1,2 @@
+# tabslSEO
+OXID SEO-Modul
